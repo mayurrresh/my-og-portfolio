@@ -1,669 +1,663 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mayuresh Kahar | Software Developer</title>
-    <link rel="icon" type="Image/png" href="logo-1.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="theme-color" content="#f5f2ea">
+    <meta name="color-scheme" content="light">
+    <meta name="description"
+        content="Mayuresh Kahar — Software Developer building full-stack products, APIs and AI-powered applications.">
+    <meta name="author" content="Mayuresh Kahar">
+    <title>Mayuresh Kahar — Software Developer</title>
+    <link rel="icon" type="image/jpeg" href="assets/profile.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!-- Animated Background -->
-    <div class="animated-bg">
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
-        <div class="shape shape-3"></div>
-        <div class="shape shape-4"></div>
-    </div>
+    <div class="site-noise" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
 
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <div class="logo-icon">
-                    <i class="fas fa-code"></i>
-                </div>
-                <span class="logo-text">Mayuresh Kahar</span>
-            </div>
-            <div class="nav-menu" id="nav-menu">
-                <a href="#home" class="nav-link active">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#experience" class="nav-link">Experience</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <div class="nav-toggle" id="nav-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+    <header class="site-header" id="navbar">
+        <div class="nav-shell">
+            <a class="brand" href="#home" aria-label="Mayuresh Kahar">
+
+    <span class="brand-symbol">
+        <img src="brand-transparent.png" alt="Mayuresh Kahar logo">
+    </span>
+
+    <span class="brand-wordmark">
+        <strong>MAYURESH</strong>
+        <small>KAHAR</small>
+    </span>
+
+</a>
+            <nav class="desktop-nav" aria-label="Primary navigation">
+                <a class="nav-link active" href="#home">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#skills">Stack</a>
+                <a class="nav-link" href="#experience">Experience</a>
+                <a class="nav-link" href="#projects">Work</a>
+                <a class="nav-link" href="#research">Research</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </nav>
+            <a class="nav-cta magnetic" href="#contact"><span>Let's talk</span><b>↗</b></a>
+            <button class="menu-toggle" id="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"
+                aria-controls="nav-menu"><span></span><span></span></button>
         </div>
-    </nav>
+        <nav class="mobile-nav" id="nav-menu" aria-label="Mobile navigation">
+            <a class="nav-link active" href="#home">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#skills">Stack</a>
+            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#projects">Work</a>
+            <a class="nav-link" href="#research">Research</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <div class="hero-badge">
-                        <i class="fas fa-circle"></i>
-                        Available for Work
-                    </div>
-                    <h1 class="hero-title">
-                        Hi, I'm <span class="gradient-text">Mayuresh Kahar</span>
-                        <span class="hero-subtitle">Software Developer</span>
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="hero-grid">
+                <div class="hero-copy reveal">
+                    <div class="eyebrow"><span class="status-dot"></span><span>Software
+                            Developer</span><i>/</i><span>Pune, India</span></div>
+                    <div class="hero-number">01 <span>—</span> 07</div>
+                    <p class="hero-kicker">I build things that <span>ship.</span></p>
+                    <h1 class="hero-title" id="hero-title">
+                        Software that feels
+                        <span>simple on the surface.</span>
                     </h1>
-                    <p class="hero-description">
-                        I craft exceptional digital experiences with modern web technologies.
-                        Passionate about building scalable applications that solve real-world problems.
-                    </p>
-                    <div class="hero-stats">
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="2">1</span>
-                            <span class="stat-label">Years Experience</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="10">11</span>
-                            <span class="stat-label">Projects Completed</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="15">9</span>
-                            <span class="stat-label">Technologies</span>
-                        </div>
+                    <p class="hero-description">Software Developer working across React.js, Node.js, Python and Generative AI —
+                        building full-stack applications, APIs and practical AI-powered products.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary magnetic" href="#projects"><span>Explore my
+                                work</span><i>↗</i></a>
+                        <a class="button button-ghost" href="#contact"><span>Start a conversation</span><i>→</i></a>
                     </div>
-                    <div class="hero-buttons">
-                        <a href="" class="btn btn-primary">
-                            <i class="fas fa-eye"></i>
-                            View Projects
-                        </a>
-                        <a href="#contact" class="btn btn-secondary">
-                            <i class="fas fa-paper-plane"></i>
-                            Hire Me
-                        </a>
-                    </div>
-                    <div class="social-links">
-                        <a href="mailto:mayureshkahar777@gmail.com" class="social-link" title="Email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                        <a href="tel:+918999375047" class="social-link" title="Phone">
-                            <i class="fas fa-phone"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/mayuresh-kahar-b37aa922a/" target="_blank"
-                            class="social-link" title="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="https://github.com/mayurrresh" target="_blank" class="social-link" title="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
+                    <div class="hero-meta"><span>Currently open to opportunities</span><span
+                            class="meta-line"></span><span class="mono">2026</span></div>
                 </div>
-                <div class="hero-visual">
-                    <div class="profile-card">
-                        <div class="profile-avatar">
-                            <div class="avatar-img">
-                                <img src="/WhatsApp Image 2024-05-25 at 12.38.34 PM.jpeg" alt="Mayuresh Kahar">
-                            </div>
-                            <div class="avatar-ring"></div>
+
+                <div class="hero-visual hero-photo-visual reveal reveal-delay-2" data-tilt>
+                    <div class="hero-photo" aria-hidden="true">
+                        <div class="hero-photo-fade"></div>
+                        <div class="hero-photo-label">
+                            <span>MK / 001</span>
+                            <span>FULL-STACK · AI</span>
                         </div>
-                        <div class="tech-stack">
-                            <div class="tech-item" data-tech="React">
-                                <i class="fab fa-react"></i>
-                            </div>
-                            <div class="tech-item" data-tech="Node.js">
-                                <i class="fab fa-node-js"></i>
-                            </div>
-                            <div class="tech-item" data-tech="MongoDB">
-                                <i class="fas fa-database"></i>
-                            </div>
-                            <div class="tech-item" data-tech="Python">
-                                <i class="fab fa-python"></i>
-                            </div>
-                        </div>
+                        <div class="hero-photo-scan"></div>
                     </div>
+                    <div class="hero-photo-shadow" aria-hidden="true"></div>
+                    <div class="floating-chip chip-top">↗ clean architecture</div>
+                    <div class="floating-chip chip-bottom">✦ shipped projects</div>
                 </div>
             </div>
-        </div>
-        <div class="scroll-indicator">
-            <div class="scroll-text">Scroll to explore</div>
-            <div class="scroll-arrow"></div>
-        </div>
-    </section>
+            <div class="hero-scroll"><span>Scroll to explore</span><i></i></div>
+        </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">About Me</span>
-                <h2 class="section-title">Crafting Digital Excellence</h2>
-                <p class="section-description">
-                    A passionate developer with a keen eye for detail and a commitment to creating
-                    exceptional user experiences through clean, efficient code.
-                </p>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <div class="about-badge">
-                        <i class="fas fa-star"></i>
-                        Top Performer
-                    </div>
-                    <h3 class="about-title">Software Developer</h3>
-                    <p class="about-description">
-                        I'm currently pursuing my Master of Computer Applications (MCA) at P.E.S. Modern College Of
-                        Engineering,
-                        building upon my strong foundation from BCA where I achieved a CGPA of 8.4/10. My journey in
-                        tech is driven
-                        by a passion for creating impactful technology solutions that are both powerful and efficient.
-                    </p>
-                    <p class="about-description">
-                        With expertise in modern web technologies, I specialize in
-                        building scalable full-stack applications with robust architectures. My approach combines technical
-                        excellence with creative problem-solving.
-                    </p>
-                    <div class="about-highlights">
-                        <div class="highlight-item">
-                            <div class="highlight-icon">
-                                <i class="fas fa-trophy"></i>
-                            </div>
-                            <div class="highlight-content">
-                                <h4>Top Academic Performance</h4>
-                                <p>8.4/10 CGPA in BCA with consistent excellence across all semesters</p>
-                            </div>
+        <section class="marquee" aria-label="Core development capabilities">
+            <div class="marquee-track"><span>FULL-STACK DEVELOPMENT</span><b>✦</b><span>API
+                    ENGINEERING</span><b>✦</b><span>AI INTEGRATION</span><b>✦</b><span>PRODUCT
+                    THINKING</span><b>✦</b><span>CLOUD &amp; BACKEND</span><b>✦</b><span>FULL-STACK
+                    DEVELOPMENT</span><b>✦</b><span>API ENGINEERING</span><b>✦</b><span>AI
+                    INTEGRATION</span><b>✦</b><span>PRODUCT THINKING</span><b>✦</b><span>CLOUD &amp;
+                    BACKEND</span><b>✦</b></div>
+        </section>
+
+        <!-- OVERVIEW -->
+        <section class="system-overview section-pad" id="overview" aria-labelledby="overview-title">
+            <div class="container">
+                <div class="section-intro reveal"><span class="section-index">00 / SNAPSHOT</span>
+                    <h2 id="overview-title">A developer, <em>in one glance.</em></h2>
+                </div>
+                <div class="snapshot-grid">
+                    <article class="snapshot snapshot-feature reveal"><span class="snapshot-label">CURRENT
+                            STATUS</span><strong>Open to opportunities</strong>
+                        <p>Looking for meaningful software engineering work where I can build, learn and contribute.</p>
+                        <span class="snapshot-mark">01</span>
+                    </article>
+                    <article class="snapshot reveal reveal-delay-1"><span
+                            class="snapshot-label">LOCATION</span><strong>Pune, India</strong>
+                        <p>Maharashtra</p><span class="snapshot-mark">02</span>
+                    </article>
+                    <article class="snapshot reveal reveal-delay-2"><span class="snapshot-label">CURRENT
+                            FOCUS</span><strong>Full-stack + AI</strong>
+                        <p>Products, APIs and practical AI integrations.</p><span class="snapshot-mark">03</span>
+                    </article>
+                    <article class="snapshot reveal reveal-delay-1"><span class="snapshot-label">PRIMARY
+                            STACK</span><strong>React · Node · Python</strong>
+                        <p>MongoDB · PostgreSQL · AWS</p><span class="snapshot-mark">04</span>
+                    </article>
+                    <article class="snapshot reveal reveal-delay-2"><span
+                            class="snapshot-label">EDUCATION</span><strong>MCA</strong>
+                        <p>Computer Applications</p><span class="snapshot-mark">05</span>
+                    </article>
+                    <article class="snapshot snapshot-loop reveal reveal-delay-3"><span class="snapshot-label">BUILD
+                            LOOP</span>
+                        <div class="loop">
+                            <span><small>01</small>LEARN</span><i>→</i><span><small>02</small>BUILD</span><i>→</i><span><small>03</small>SHIP</span>
                         </div>
-                        <div class="highlight-item">
-                            <div class="highlight-icon">
-                                <i class="fas fa-rocket"></i>
-                            </div>
-                            <div class="highlight-content">
-                                <h4>Fast Learner</h4>
-                                <p>Quickly adapts to new technologies and frameworks</p>
-                            </div>
-                        </div>
-                        <div class="highlight-item">
-                            <div class="highlight-icon">
-                                <i class="fas fa-lightbulb"></i>
-                            </div>
-                            <div class="highlight-content">
-                                <h4>Problem Solver</h4>
-                                <p>Strong analytical skills for developing efficient solutions</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#contact" class="btn btn-outline">
-                        <i class="fas fa-comments"></i>
-                        Let's Connect
-                    </a>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Technical Skills</span>
-                <h2 class="section-title">My Technology Stack</h2>
-                <p class="section-description">
-                    Proficient in modern web technologies and mobile development for building scalable applications.
-                </p>
-            </div>
-            <div class="skills-grid">
-                <!-- Frontend Development -->
-                <div class="skill-category">
-                    <div class="skill-header">
-                        <h3>Frontend Development</h3>
-                        <i class="fas fa-paint-brush"></i>
-                    </div>
-                    <div class="skill-items">
-                        <div class="skill-item" data-level="90">
-                            <div class="skill-info">
-                                <i class="fab fa-react"></i>
-                                <span>React</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item" data-level="85">
-                            <div class="skill-info">
-                                <i class="fas fa-n"></i>
-                                <span>Next.js</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item" data-level="95">
-                            <div class="skill-info">
-                                <i class="fab fa-html5"></i>
-                                <span>HTML5</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 95%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item" data-level="90">
-                            <div class="skill-info">
-                                <i class="fab fa-css3-alt"></i>
-                                <span>CSS3 / Tailwind</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                    </div>
+        <!-- ABOUT -->
+        <section class="about section-pad" id="about" aria-labelledby="about-title">
+            <div class="container">
+                <div class="section-intro reveal"><span class="section-index">01 / ABOUT</span>
+                    <h2 id="about-title">Not just writing code.<br><em>Solving the whole problem.</em></h2>
                 </div>
-
-                <!-- Backend Development -->
-                <div class="skill-category">
-                    <div class="skill-header">
-                        <h3>Backend Development</h3>
-                        <i class="fas fa-server"></i>
-                    </div>
-                    <div class="skill-items">
-                        <div class="skill-item" data-level="80">
-                            <div class="skill-info">
-                                <i class="fab fa-python"></i>
-                                <span>FastAPI</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item" data-level="85">
-                            <div class="skill-info">
-                                <i class="fas fa-plug"></i>
-                                <span>RESTful API</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item" data-level="75">
-                            <div class="skill-info">
-                                <i class="fas fa-database"></i>
-                                <span>MongoDB</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Mobile Development -->
-                <div class="skill-category">
-                    <div class="skill-header">
-                        <h3>Mobile Development</h3>
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <div class="skill-items">
-                        <div class="skill-item" data-level="70">
-                            <div class="skill-info">
-                                <i class="fab fa-react"></i>
-                                <span>React Native</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 70%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Programming Languages -->
-                <div class="skill-category">
-                    <div class="skill-header">
-                        <h3>Programming Languages</h3>
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <div class="skill-items">
-                        <div class="skill-item" data-level="80">
-                            <div class="skill-info">
-                                <i class="fas fa-c"></i>
-                                <span>C++</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item" data-level="85">
-                            <div class="skill-info">
-                                <i class="fab fa-java"></i>
-                                <span>Java</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item" data-level="88">
-                            <div class="skill-info">
-                                <i class="fab fa-js"></i>
-                                <span>JavaScript</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 88%"></div>
-                            </div>
-                            
-                        <div class="skill-item" data-level="88">
-                            <div class="skill-info">
-                                <i class="fa-brands fa-python"></i>
-                                <span>Python</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 88%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Journey</span>
-                <h2 class="section-title">Education & Experience</h2>
-                <p class="section-description">
-                    My academic foundation and continuous learning journey in technology.
-                </p>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-badge">Current</div>
-                        <h3>Master of Computer Applications</h3>
-                        <p class="timeline-institution">P.E.S. Modern College Of Engineering</p>
-                        <p class="timeline-period"><i class="far fa-calendar"></i> 2024 - Present</p>
-                        <p class="timeline-description">
-                            Pursuing advanced studies in computer applications with focus on full-stack development
-                            and software engineering.
+                <div class="about-grid">
+                    <div class="about-lead reveal">
+                        <p class="lead-text">I'm a software developer with a background in computer applications and a
+                            bias toward building real things.</p>
+                        <p>I like the part where an idea is still messy: understanding the requirement, choosing the
+                            architecture, shaping the data, building the interface and getting the whole thing into a
+                            usable state.</p>
+                        <p>My work spans modern web development, backend APIs, databases and AI integrations. I care
+                            about the details that make software feel dependable — not just impressive in a screenshot.
                         </p>
                     </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-badge">8.4/10 CGPA</div>
-                        <h3>Bachelor of Computer Applications</h3>
-                        <p class="timeline-institution">
-                            Dr. G.Y. Pathrikar College Of Computer Science And Information Technology
-                        </p>
-                        <p class="timeline-period"><i class="far fa-calendar"></i> Completed with Distinction</p>
-                        <p class="timeline-description">
-                            Built strong foundation in computer science fundamentals, programming languages,
-                            software development methodologies, and database management. Consistently maintained
-                            high academic performance throughout the course.
-                        </p>
+                    <div class="about-facts reveal reveal-delay-1">
+                        <div class="fact"><span>Education</span><strong>MCA · Computer Applications</strong></div>
+                        <div class="fact"><span>Foundation</span><strong>BCA · 8.4 / 10 CGPA</strong></div>
+                        <div class="fact"><span>Based in</span><strong>Pune, Maharashtra</strong></div>
+                        <div class="fact"><span>Focus</span><strong>Full-stack · APIs · AI</strong></div>
                     </div>
                 </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-badge">Completed</div>
-                        <h3>Senior Secondary (XII)</h3>
-                        <p class="timeline-institution">S. B College Of Science</p>
-                        <p class="timeline-period"><i class="far fa-calendar"></i> Science Stream</p>
-                        <p class="timeline-description">
-                            Completed higher secondary education with focus on science subjects,
-                            laying strong groundwork for technical education and analytical thinking.
-                        </p>
+                <div class="philosophy">
+                    <div class="philosophy-header reveal"><span class="section-index">HOW I THINK</span>
+                        <p>The principles behind the way I approach software.</p>
+                    </div>
+                    <div class="philosophy-grid">
+                        <article class="philosophy-card reveal"><span>01</span><b>◇</b>
+                            <h3>Clarity</h3>
+                            <p>Good software should make complexity feel invisible. I value clear interfaces, readable
+                                architecture and predictable behavior.</p>
+                        </article>
+                        <article class="philosophy-card reveal reveal-delay-1"><span>02</span><b>⌁</b>
+                            <h3>Systems</h3>
+                            <p>I think beyond the screen: data, APIs, business logic, infrastructure and user experience
+                                are all parts of the same product.</p>
+                        </article>
+                        <article class="philosophy-card reveal reveal-delay-2"><span>03</span><b>↗</b>
+                            <h3>Shipping</h3>
+                            <p>A beautiful architecture that never reaches a user is still unfinished. Building, testing
+                                and shipping are part of the work.</p>
+                        </article>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Portfolio</span>
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-description">
-                    A showcase of my recent work combining development expertise.
-                </p>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card project-card-featured">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-tech">
-                                <span class="tech-tag">React</span>
-                                <span class="tech-tag">Node.js</span>
-                                <span class="tech-tag">MongoDB</span>
-                            </div>
-                        </div>
-                        <div class="project-icon">
-                            <i class="fas fa-robot"></i>
-                        </div>
+        <!-- STACK -->
+        <section class="skills section-pad section-dark" id="skills" aria-labelledby="skills-title">
+            <div class="container">
+                <div class="section-intro section-intro-split reveal">
+                    <div><span class="section-index">02 / STACK</span>
+                        <h2 id="skills-title">Tools I use to<br><em>turn ideas into software.</em></h2>
                     </div>
-                    <div class="project-content">
-                        <div class="project-badge">Featured</div>
-                        <h3>QuickGPT</h3>
-                        <p>Full-stack AI Chatbot with user authentication, payment processing, and admin dashboard.
-                            Features seamless integration and responsive design.</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                                Live Demo
-                            </a>
-                            <a href="https://github.com/mayurrresh/QuickGPT" class="project-link">
-                                <i class="fab fa-github"></i>
-                                Code
-                            </a>
-                        </div>
-                    </div>
+                    <p>Technology is a means, not a personality. I choose the stack around the problem, the product and
+                        the constraints.</p>
                 </div>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-tech">
-                                <span class="tech-tag">React Native</span>
-                                <span class="tech-tag">Firebase</span>
-                            </div>
+                <div class="stack-bento">
+                    <article class="stack-card stack-featured reveal">
+                        <span class="stack-number">01</span><span class="stack-icon">⌘</span>
+                        <h3>Frontend</h3>
+                        <p>Building responsive interfaces with component-driven architecture and practical product thinking.</p>
+                        <div class="tag-list">
+                            <span>React.js</span><span>Next.js</span><span>JavaScript</span><span>TypeScript</span><span>HTML5</span><span>CSS3</span><span>Tailwind CSS</span>
                         </div>
-                        <div class="project-icon">
-                            <i class="fas fa-tasks"></i>
+                    </article>
+
+                    <article class="stack-card reveal reveal-delay-1">
+                        <span class="stack-number">02</span><span class="stack-icon">⌁</span>
+                        <h3>Backend</h3>
+                        <p>Designing REST services around authentication, validation, application logic and maintainable boundaries.</p>
+                        <div class="tag-list">
+                            <span>Node.js</span><span>Express.js</span><span>FastAPI</span><span>REST APIs</span><span>JWT</span><span>OAuth 2.0</span>
                         </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Managekaro</h3>
-                        <p>Cross-platform mobile application for task management with real-time synchronization
-                            and team collaboration features.</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                                View Project
-                            </a>
-                            <a href="#" class="project-link">
-                                <i class="fab fa-github"></i>
-                                Code
-                            </a>
+                    </article>
+
+                    <article class="stack-card reveal reveal-delay-2">
+                        <span class="stack-number">03</span><span class="stack-icon">◈</span>
+                        <h3>Data</h3>
+                        <p>Modeling application data around real workflows, access control and persistence requirements.</p>
+                        <div class="tag-list">
+                            <span>MongoDB</span><span>MySQL</span><span>Database Design</span>
                         </div>
-                    </div>
+                    </article>
+
+                    <article class="stack-card stack-ai reveal reveal-delay-3">
+                        <span class="stack-number">04</span><span class="stack-icon">✦</span>
+                        <h3>AI &amp; Engineering Tools</h3>
+                        <p>Integrating LLM APIs and using modern development tools to prototype, debug and ship software faster.</p>
+                        <div class="tag-list">
+                            <span>Gemini</span><span>ChatGPT</span><span>Claude</span><span>GitHub Copilot</span><span>Cursor</span><span>Docker</span><span>Postman</span><span>Git</span>
+                        </div>
+                    </article>
                 </div>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-tech">
-                                <span class="tech-tag">FastAPI</span>
-                                <span class="tech-tag">Python</span>
-                                <span class="tech-tag">PostgreSQL</span>
-                            </div>
-                        </div>
-                        <div class="project-icon">
-                            <i class="fas fa-server"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>VocalFind</h3>
-                        <p>Scalable REST API built with FastAPI, featuring JWT authentication, data validation,
-                            rate limiting, and comprehensive Swagger documentation.</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                                API Docs
-                            </a>
-                            <a href="#" class="project-link">
-                                <i class="fab fa-github"></i>
-                                Code
-                            </a>
+                <div class="stack-strip reveal">
+                    <span>ALSO WORKING WITH</span>
+                    <b>Python</b><b>C++</b><b>WordPress</b><b>Chrome DevTools</b><b>Vercel</b><b>Render</b>
+                </div>
+
+                <div class="stack-method reveal">
+                    <div class="stack-method-label"><span class="section-index">MY APPROACH</span><span
+                            class="mono">SYSTEM / 02</span></div>
+                    <div class="stack-method-flow">
+                        <div class="method-step"><span>01</span><strong>Understand</strong>
+                            <p>Requirements, users and constraints.</p>
+                        </div><i>→</i>
+                        <div class="method-step"><span>02</span><strong>Structure</strong>
+                            <p>Architecture, data and boundaries.</p>
+                        </div><i>→</i>
+                        <div class="method-step"><span>03</span><strong>Build</strong>
+                            <p>Interfaces, APIs and integrations.</p>
+                        </div><i>→</i>
+                        <div class="method-step"><span>04</span><strong>Ship</strong>
+                            <p>Test, refine and release.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Get In Touch</span>
-                <h2 class="section-title">Let's Work Together</h2>
-                <p class="section-description">
-                    Ready to bring your ideas to life? Let's discuss your next project and create something amazing.
-                </p>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <p>I'm always excited to work on new projects and collaborations.
-                        Whether you need development solutions - feel free to reach out!</p>
-                    <div class="contact-methods">
-                        <div class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4>Email</h4>
-                                <a href="mailto:mayureshkahar777@gmail.com">mayureshkahar777@gmail.com</a>
-                            </div>
+        <!-- EXPERIENCE -->
+        <section class="journey section-pad" id="experience" aria-labelledby="journey-title">
+            <div class="container">
+                <div class="section-intro reveal">
+                    <span class="section-index">03 / EXPERIENCE</span>
+                    <h2 id="journey-title">Learning by doing.<br><em>Shipping in the real world.</em></h2>
+                </div>
+
+                <div class="timeline-modern">
+                    <article class="journey-item reveal">
+                        <div class="journey-year">INDUSTRY</div>
+                        <div class="journey-marker"></div>
+                        <div class="journey-card">
+                            <span class="journey-type">FULL STACK DEVELOPER INTERN</span>
+                            <h3>Media Urbana</h3>
+                            <p class="journey-place">Production hotel management platform</p>
+                            <p>Built and optimized React and Node.js components for booking, availability and PMS workflows.
+                                Refactored existing code and improved UI consistency through structured code reviews.</p>
+                            <div class="journey-tags"><span>React</span><span>Node.js</span><span>Code Reviews</span><span>Production Platform</span></div>
                         </div>
-                        <div class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4>Phone</h4>
-                                <a href="tel:+918999375047">+91 8999375047</a>
-                            </div>
+                    </article>
+
+                    <article class="journey-item reveal reveal-delay-1">
+                        <div class="journey-year">2025</div>
+                        <div class="journey-marker"></div>
+                        <div class="journey-card">
+                            <span class="journey-type">TEAM LEAD · ACADEMIC PROJECT</span>
+                            <h3>Cyber Crime Pattern Recognition</h3>
+                            <p class="journey-place">Team of 3 · System Design &amp; Evaluation</p>
+                            <p>Led the team through system design, preprocessing, classification flow and evaluation strategy.
+                                Coordinated task breakdown, integration and delivery.</p>
+                            <div class="journey-tags"><span>Python</span><span>Preprocessing</span><span>Classification</span><span>Evaluation</span></div>
                         </div>
-                        <div class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4>Location</h4>
-                                <span>Pune, Maharashtra, India</span>
-                            </div>
+                    </article>
+
+                    <article class="journey-item reveal reveal-delay-2">
+                        <div class="journey-year">OPEN SOURCE</div>
+                        <div class="journey-marker"></div>
+                        <div class="journey-card">
+                            <span class="journey-type">CONTRIBUTOR</span>
+                            <h3>Healthcare Web Application</h3>
+                            <p class="journey-place">Offline-first workflows</p>
+                            <p>Implemented network-awareness and online/offline/recovery UI state handling, while collaborating
+                                on REST API integration and component refactoring for maintainability and performance.</p>
+                            <div class="journey-tags"><span>Offline-first</span><span>REST APIs</span><span>UI State</span><span>Refactoring</span></div>
                         </div>
+                    </article>
+
+                    <article class="journey-item reveal reveal-delay-3">
+                        <div class="journey-year">EDUCATION</div>
+                        <div class="journey-marker"></div>
+                        <div class="journey-card">
+                            <span class="journey-type">MASTER OF COMPUTER APPLICATIONS</span>
+                            <h3>P.E.S. Modern College Of Engineering</h3>
+                            <p class="journey-place">MCA · Completed</p>
+                            <p>Advanced study in computer applications alongside hands-on software development.</p>
+                            <div class="journey-tags"><span>Computer Applications</span><span>Software Engineering</span></div>
+                        </div>
+                    </article>
+
+                    <article class="journey-item reveal reveal-delay-3">
+                        <div class="journey-year">BCA</div>
+                        <div class="journey-marker"></div>
+                        <div class="journey-card">
+                            <span class="journey-type">BACHELOR OF COMPUTER APPLICATIONS</span>
+                            <h3>Dr. G.Y. Pathrikar College Of Computer Science And Information Technology</h3>
+                            <p class="journey-place">Completed · 8.4 / 10 CGPA</p>
+                            <div class="journey-result"><span>FINAL RESULT</span><strong>8.4 / 10 CGPA</strong></div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="journey-loop reveal">
+                    <div class="journey-loop-header"><span class="section-index">THE LOOP</span>
+                        <p>The process that keeps the journey moving.</p>
                     </div>
-                    <div class="social-links">
-                        <a href="mailto:mayureshkahar777@gmail.com" class="social-link" title="Email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                        <a href="tel:+918999375047" class="social-link" title="Phone">
-                            <i class="fas fa-phone"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/mayuresh-kahar-b37aa922a/" target="_blank"
-                            class="social-link" title="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="https://github.com/mayurrresh" target="_blank" class="social-link" title="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
+                    <div class="journey-loop-grid">
+                        <div><span>01</span><strong>Learn</strong>
+                            <p>Study the concept before reaching for the implementation.</p>
+                        </div><i>→</i>
+                        <div><span>02</span><strong>Experiment</strong>
+                            <p>Break things, test assumptions and understand what actually works.</p>
+                        </div><i>→</i>
+                        <div><span>03</span><strong>Build</strong>
+                            <p>Turn the knowledge into something concrete and usable.</p>
+                        </div><i>→</i>
+                        <div><span>04</span><strong>Ship</strong>
+                            <p>Put the work in front of people and learn from the result.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <form id="contact-form">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </div>
+        </section>
+
+        <!-- WORK -->
+        <section class="projects section-pad section-dark" id="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <div class="section-intro section-intro-split reveal">
+                    <div><span class="section-index">04 / SELECTED WORK</span>
+                        <h2 id="projects-title">Projects with a reason<br><em>to exist.</em></h2>
+                    </div>
+                    <p>A selection of full-stack and AI work. The focus is on useful software, clear architecture and
+                        real application workflows.</p>
+                </div>
+
+                <div class="projects-list">
+                    <article class="project project-featured reveal" data-project="quickgpt">
+                        <div class="project-visual project-ai">
+                            <div class="project-ui">
+                                <div class="mini-top"><span>QuickGPT</span><i>●</i></div>
+                                <div class="mini-chat">
+                                    <span class="bubble user">Explain scalable APIs.</span>
+                                    <span class="bubble ai">Start with clear boundaries, validation and observability.</span>
+                                    <span class="bubble user short">Makes sense.</span>
+                                </div>
+                                <div class="mini-input"><span>Ask anything...</span><b>↗</b></div>
+                            </div>
+                            <span class="project-label">01 / AI PRODUCT</span>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Your Email</label>
-                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        <div class="project-info">
+                            <div class="project-head">
+                                <div><span class="project-kicker">Featured project</span>
+                                    <h3 class="project-title">QuickGPT</h3>
+                                </div>
+                                <a href="https://github.com/mayurrresh/QuickGPT" target="_blank"
+                                    rel="noopener noreferrer" class="circle-link"
+                                    aria-label="Open QuickGPT GitHub repository">↗</a>
+                            </div>
+                            <p>AI chatbot powered by the Google Gemini LLM API, with prompt design, response streaming,
+                                token-based credit limits, JWT authentication and chat history.</p>
+                            <div class="project-architecture"><span>ARCHITECTURE</span>
+                                <div><b>React</b><i>→</i><b>Node.js</b><i>→</i><b>MongoDB</b><i>→</i><b>Gemini</b></div>
+                            </div>
+                            <div class="project-tags">
+                                <span>React</span><span>Node.js</span><span>MongoDB</span><span>Gemini</span><span>JWT</span>
+                            </div>
+                            <div class="project-footer"><span>Full-stack AI application</span><a
+                                    href="https://github.com/mayurrresh/QuickGPT" target="_blank"
+                                    rel="noopener noreferrer">View code ↗</a></div>
                         </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" placeholder="Project Discussion" required>
+                    </article>
+
+                    <article class="project reveal reveal-delay-1" data-project="managekaro">
+                        <div class="project-visual project-mobile">
+                            <div class="phone-ui">
+                                <div class="phone-notch"></div><span class="phone-title">Students</span>
+                                <div class="task done">✓ Admin dashboard</div>
+                                <div class="task">○ Student records</div>
+                                <div class="task">○ Role-based access</div>
+                                <div class="phone-nav">⌂　＋　◎</div>
+                            </div>
+                            <span class="project-label">02 / FULL-STACK</span>
                         </div>
-                        <div class="form-group">
-                            <label for="message">Your Message</label>
-                            <textarea id="message" name="message" placeholder="Tell me about your project..." rows="5"
-                                required></textarea>
+                        <div class="project-info">
+                            <div class="project-head">
+                                <div><span class="project-kicker">Ongoing build</span>
+                                    <h3 class="project-title">Managekaro</h3>
+                                </div>
+                                <a href="#contact" class="circle-link" aria-label="Ask about Managekaro">↗</a>
+                            </div>
+                            <p>Student management platform with admin/student role-based architecture, REST APIs for
+                                authentication and CRUD operations, MongoDB schemas and role-aware UI rendering.</p>
+                            <div class="project-tags"><span>React</span><span>Node.js</span><span>MongoDB</span><span>REST APIs</span></div>
+                            <div class="project-footer"><span>Student management system</span><a href="#contact">Ask about it ↗</a></div>
                         </div>
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-paper-plane"></i>
-                            Send Message
-                        </button>
+                    </article>
+                </div>
+
+                <div class="projects-closing reveal">
+                    <span class="section-index">BUILDING IS THE POINT</span>
+                    <p>Every project is another opportunity to understand a problem more deeply and build something
+                        better than the last version.</p>
+                    <a class="text-link magnetic" href="#contact">Start a project <span>↗</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESEARCH -->
+        <section class="about section-pad" id="research" aria-labelledby="research-title">
+            <div class="container">
+                <div class="section-intro section-intro-split reveal">
+                    <div>
+                        <span class="section-index">05 / RESEARCH</span>
+                        <h2 id="research-title">From academic work<br><em>to published research.</em></h2>
+                    </div>
+                    <p>A research project exploring cyber-crime pattern recognition and analysis through preprocessing,
+                        severity classification and model evaluation.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-lead reveal">
+                        <span class="section-index">PUBLICATION · 11 / 2025</span>
+                        <h3>Cyber-Crime Pattern Recognition &amp; Analysis</h3>
+                        <p class="lead-text">International Journal of Innovative Research in Computer and Communication Engineering.</p>
+                        <p>The work simulated real-world data noise by injecting controlled errors, designed preprocessing
+                            pipelines and severity classification logic, and evaluated models using accuracy and F1-score.</p>
+                    </div>
+
+                    <div class="about-facts reveal reveal-delay-1">
+                        <div class="fact"><span>Role</span><strong>Team Lead</strong></div>
+                        <div class="fact"><span>Team</span><strong>3 members</strong></div>
+                        <div class="fact"><span>Focus</span><strong>Pattern recognition &amp; analysis</strong></div>
+                        <div class="fact"><span>Evaluation</span><strong>Accuracy · F1-score</strong></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PLAYGROUND -->
+        <section class="playground section-pad" id="playground" aria-labelledby="playground-title">
+            <div class="container">
+                <div class="section-intro section-intro-split reveal">
+                    <div><span class="section-index">06 / PLAYGROUND</span>
+                        <h2 id="playground-title">A little room to<br><em>experiment.</em></h2>
+                    </div>
+                    <p>Software becomes interesting when you can interact with the system instead of simply looking at a
+                        screenshot.</p>
+                </div>
+                <div class="playground-console reveal" data-playground>
+                    <div class="playground-header">
+                        <div class="playground-window-controls"><span></span><span></span><span></span></div><span
+                            class="playground-title">mayuresh://playground</span><span class="playground-status"><span
+                                class="status-dot"></span> interactive</span>
+                    </div>
+                    <div class="playground-body">
+                        <div class="playground-terminal">
+                            <div class="terminal-line">
+                                <span>mayuresh@dev</span><span>:</span><span>~/portfolio</span><span>$</span>
+                            </div>
+                            <div class="terminal-command"><span>❯</span> inspect system</div>
+                            <div class="terminal-output">
+                                <div><span>runtime</span><strong>browser</strong></div>
+                                <div><span>interface</span><strong>responsive</strong></div>
+                                <div><span>architecture</span><strong>full-stack</strong></div>
+                                <div><span>backend</span><strong>API-driven</strong></div>
+                                <div><span>intelligence</span><strong>AI-integrated</strong></div>
+                                <div><span>mindset</span><strong>ship</strong></div>
+                            </div>
+                            <div class="terminal-command terminal-command-next"><span>❯</span><span
+                                    class="terminal-cursor">▋</span></div>
+                        </div>
+                        <div class="playground-panel">
+                            <div class="playground-panel-label">SYSTEM OVERVIEW</div>
+                            <div class="playground-metric">
+                                <div class="metric-heading"><span>Frontend</span><strong>UI</strong></div>
+                                <div class="metric-track"><span class="metric-fill metric-fill-frontend"></span></div>
+                            </div>
+                            <div class="playground-metric">
+                                <div class="metric-heading"><span>Backend</span><strong>API</strong></div>
+                                <div class="metric-track"><span class="metric-fill metric-fill-backend"></span></div>
+                            </div>
+                            <div class="playground-metric">
+                                <div class="metric-heading"><span>Data</span><strong>DB</strong></div>
+                                <div class="metric-track"><span class="metric-fill metric-fill-data"></span></div>
+                            </div>
+                            <div class="playground-metric">
+                                <div class="metric-heading"><span>AI</span><strong>INT</strong></div>
+                                <div class="metric-track"><span class="metric-fill metric-fill-ai"></span></div>
+                            </div>
+                            <div class="playground-panel-footer"><span>SYSTEM STATUS</span><strong>OPERATIONAL</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playground-footer"><span>No frameworks required for this interface.</span><span
+                            class="mono">HTML · CSS · JS</span></div>
+                </div>
+                <div class="playground-prompts reveal">
+                    <div><span>01</span><strong>How would you design it?</strong>
+                        <p>Start with the requirements, constraints, data and system boundaries.</p>
+                    </div>
+                    <div><span>02</span><strong>What could break?</strong>
+                        <p>Think about validation, failure states, security, scale and observability.</p>
+                    </div>
+                    <div><span>03</span><strong>How do we ship it?</strong>
+                        <p>Build incrementally, test the important paths and put the result in front of users.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="contact-shell reveal">
+                    <div class="contact-copy"><span class="section-index">07 / LET'S BUILD</span>
+                        <h2 id="contact-title">Have a problem<br>worth <em>building?</em></h2>
+                        <p>Tell me what you're working on. If there's a useful fit, we'll figure out the next step.</p>
+                        <div class="contact-direct"><a
+                                href="mailto:mayureshkahar777@gmail.com">mayureshkahar777@gmail.com</a><a
+                                href="tel:+918999375047">+91 8999375047</a><span>Pune, Maharashtra, India</span></div>
+                        <div class="contact-availability"><span class="status-dot"></span>
+                            <div><strong>Available for opportunities</strong><span>Software development · collaborations
+                                    · projects</span></div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <div class="form-intro"><span>START A CONVERSATION</span>
+                            <p>Give me enough context to understand what you're trying to build.</p>
+                        </div>
+                        <div class="form-row"><label><span>Your name</span><input type="text" id="name" name="name"
+                                    placeholder="John Doe" autocomplete="name" required></label><label><span>Your
+                                    email</span><input type="email" id="email" name="email"
+                                    placeholder="john@example.com" autocomplete="email" required></label></div>
+                        <label><span>What are you building?</span><input type="text" id="subject" name="subject"
+                                placeholder="Project, role or collaboration"
+                                required></label><label><span>Message</span><textarea id="message" name="message"
+                                placeholder="Give me the context..." rows="6" required></textarea></label><button
+                            class="button button-primary form-submit magnetic" type="submit"><span>Send
+                                message</span><i>↗</i></button>
+                        <p class="form-note">Your email client will open with the message ready to send.</p>
                     </form>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-left">
-                    <div class="footer-logo">
-                        <div class="logo-icon">
-                            <i class="fas fa-code"></i>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="footer-brand"><a href="#home" class="footer-logo" aria-label="Mayuresh Kahar"><img src="brand-transparent.png" alt="Mayuresh Kahar logo"></a>
+                        <p>Building thoughtful software,<br>one system at a time.</p>
+                    </div>
+                    <nav class="footer-nav" aria-label="Footer navigation">
+                        <div class="footer-nav-group"><span>Explore</span><a href="#about">About</a><a
+                                href="#skills">Stack</a><a href="#experience">Experience</a><a href="#projects">Work</a><a href="#research">Research</a>
                         </div>
-                        <span class="logo-text">Mayuresh Kahar</span>
-                    </div>
-                    <p class="footer-tagline">Building digital experiences that matter</p>
+                        <div class="footer-nav-group"><span>Connect</span><a href="#contact">Contact</a><a
+                                href="mailto:mayureshkahar777@gmail.com">Email</a><a
+                                href="https://github.com/mayurrresh/QuickGPT" target="_blank"
+                                rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/" target="_blank"
+                                rel="noopener noreferrer">LinkedIn</a></div>
+                    </nav>
                 </div>
-                <div class="footer-links">
-                    <div class="footer-section">
-                        
-                    </div>
-                    <div class="footer-section">
-                        
-                    </div>
-                </div>
-                <div class="social-links">
-                    <a href="mailto:mayureshkahar777@gmail.com" class="social-link" title="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    <a href="tel:+918999375047" class="social-link" title="Phone">
-                        <i class="fas fa-phone"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/mayuresh-kahar-b37aa922a/" target="_blank" class="social-link"
-                        title="LinkedIn">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://github.com/mayurrresh" target="_blank" class="social-link" title="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
+                <div class="footer-system"><span>© 2026 Mayuresh Kahar</span><span
+                        class="footer-system-line"><i></i></span><span>Designed &amp; engineered with intent.</span><a
+                        href="#home">Back to top ↑</a></div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Mayuresh Kahar. All rights reserved. Designed & Developed with <i
-                        class="fas fa-heart"></i></p>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </main>
 
-    <script src="js/script.js"></script>
+    <div class="command-palette" id="command-palette" aria-hidden="true">
+        <div class="command-backdrop" data-command-close></div>
+        <div class="command-dialog" role="dialog" aria-modal="true" aria-labelledby="command-title">
+            <div class="command-header">
+                <div><span class="command-eyebrow">QUICK NAVIGATION</span>
+                    <h2 id="command-title">Where next?</h2>
+                </div><button class="command-close" type="button" aria-label="Close command palette"
+                    data-command-close>ESC</button>
+            </div>
+            <div class="command-search"><span>/</span><input type="search" id="command-search"
+                    placeholder="Search this portfolio..." autocomplete="off" aria-label="Search portfolio"><kbd>⌘
+                    K</kbd></div>
+            <div class="command-groups">
+                <div class="command-group"><span class="command-group-title">Navigation</span><a href="#home"
+                        class="command-item" data-command="home"><span
+                            class="command-icon">H</span><span><strong>Home</strong><small>Return to the
+                                beginning</small></span><kbd>↵</kbd></a><a href="#about" class="command-item"
+                        data-command="about"><span
+                            class="command-icon">A</span><span><strong>About</strong><small>Philosophy &amp;
+                                background</small></span></a><a href="#skills" class="command-item"
+                        data-command="skills"><span class="command-icon">S</span><span><strong>Engineering
+                                Stack</strong><small>Technologies &amp; workflow</small></span></a><a href="#experience" class="command-item"
+                        data-command="experience"><span class="command-icon">E</span><span><strong>Experience</strong><small>Industry, academic &amp; open source</small></span></a><a href="#research" class="command-item"
+                        data-command="research"><span class="command-icon">R</span><span><strong>Research</strong><small>Publication &amp; technical research</small></span></a><a href="#projects"
+                        class="command-item" data-command="projects"><span
+                            class="command-icon">W</span><span><strong>Selected Work</strong><small>Things I've
+                                built</small></span></a></div>
+                <div class="command-group"><span class="command-group-title">Actions</span><a href="#playground"
+                        class="command-item" data-command="playground"><span
+                            class="command-icon">P</span><span><strong>Open Playground</strong><small>Explore the
+                                interactive system</small></span><kbd>↵</kbd></a><a href="#contact" class="command-item"
+                        data-command="contact"><span class="command-icon">→</span><span><strong>Start a
+                                Conversation</strong><small>Talk about a project or
+                                opportunity</small></span><kbd>↵</kbd></a></div>
+            </div>
+            <div class="command-footer"><span>Navigate with ↑ ↓</span><span>Enter to select</span><span>Esc to
+                    close</span></div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"><span class="toast-icon">✓</span>
+        <div class="toast-content"><strong>Message ready</strong><span>Your email client should open shortly.</span>
+        </div>
+    </div>
+    <script src="js/script.js" defer></script>
 </body>
 
 </html>
